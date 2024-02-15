@@ -1,16 +1,27 @@
 /* # Stylus Chrome Extension stylesheet */
 
-/* PR Page: Hide "Update branch" Button */
-form.js-update-branch-async-button {
-  visibility: hidden
-}
+/* ==UserStyle==
+@name         Github
+@namespace    Mediflash
+@license      unlicensed
+@preprocessor default
+@updateURL https://raw.githubusercontent.com/mediflash/public/main/stylus/github.user.css
+==/UserStyle== */
 
-/* PR Page: Hide "Commit suggestion" Button */
-details.js-apply-single-suggestion {
-  visibility: hidden
-}
 
-/* PR Page: Hide "Resolve conflicts" Button */
-div.branch-action-item > a {
-  visibility: hidden
+@-moz-document url-prefix("https://github.com/mediflash/") {
+  /* PR Page: Hide "Update branch" Button */
+  form.js-update-branch-async-button {
+    visibility: hidden
+  }
+
+  /* PR Page: Hide "Commit suggestion" Button */
+  details.js-apply-single-suggestion {
+    visibility: hidden
+  }
+
+  /* PR Page: Hide "Resolve conflicts" Button */
+  div.branch-action-item > a {
+    visibility: hidden
+  }
 }
