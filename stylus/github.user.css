@@ -1,3 +1,5 @@
+/* # Stylus Chrome Extension stylesheet */
+
 /* PR Page: Hide "Update branch" Button */
 form.js-update-branch-async-button {
   visibility: hidden
