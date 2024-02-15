@@ -1,0 +1,14 @@
+/* PR Page: Hide "Update branch" Button */
+form.js-update-branch-async-button {
+  visibility: hidden
+}
+
+/* PR Page: Hide "Commit suggestion" Button */
+details.js-apply-single-suggestion {
+  visibility: hidden
+}
+
+/* PR Page: Hide "Resolve conflicts" Button */
+div.branch-action-item > a {
+  visibility: hidden
+}
